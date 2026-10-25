@@ -14,6 +14,20 @@ Compatible USB hubs
 Note that not many USB hubs correctly support per-port power switching.
 Some of them are no longer manufactured and can be hard to find.
 
+Categories are assigned according to the following definitions:
+
+| Category  | Description                                                         |
+|:----------|:--------------------------------------------------------------------|
+| Hub       | USB hub                                                             |
+| Dock      | Device with USB and other ports (HDMI, Ethernet, card reader, etc.) |
+| Monitor   | Computer monitor with an integrated dock or USB hub                 |
+| Keyboard  | Keyboard with an integrated USB hub                                 |
+| Mainboard | Mainboard for a consumer computer                                   |
+| Board     | USB hub without an enclosure (evaluation board, maker device, etc.) |
+| Computer  | Complete computer (laptop, desktop, mini PC, etc.)                  |
+| SBC       | Single-board computer (Raspberry Pi, Jetson, etc.)                  |
+| Special   | Anything that does not fit into any of the other categories         |
+
 This is list of known compatible USB hubs:
 
 | Manufacturer       | Product                                              | Category  | Ports | USB | VID:PID   | Release | EOL  |
