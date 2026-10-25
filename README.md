@@ -18,7 +18,7 @@ This is list of known compatible USB hubs:
 
 | Manufacturer       | Product                                              | Category  | Ports | USB | VID:PID   | Release | EOL  |
 |:-------------------|:-----------------------------------------------------|:----------|:------|:----|:----------|:--------|:-----|
-| Acer               | BE270U monitor ([see](https://tinyurl.com/acer550))  | Monitor   | 4     | 3.0 |`2109:2811`| 2016    |      |
+| Acer               | BE270U ([see](https://tinyurl.com/acer550))          | Monitor   | 4     | 3.0 |`2109:2811`| 2016    |      |
 | AmazonBasics       | HU3641V1 ([RPi issue](https://goo.gl/CLt46M))        | Hub       | 4     | 3.0 |`2109:2811`| 2013    |      |
 | AmazonBasics       | HU3770V1 ([RPi issue](https://goo.gl/CLt46M))        | Hub       | 7     | 3.0 |`2109:2811`| 2013    |      |
 | AmazonBasics       | HU9003V1EBL, HUC9003V1EBL                            | Hub       | 7     | 3.1 |`2109:2817`| 2018    |      |
@@ -28,46 +28,46 @@ This is list of known compatible USB hubs:
 | Anker              | AK-68ANHUB-BV7A-0004 ([note](https://git.io/JLnZb))  | Hub       | 7     | 3.0 |`2109:0812`| 2014    |      |
 | Apple              | Mac Mini M4 (2 front ports only)                     | Computer  | 2     | 3.2 |`05AC:800B`| 2024    |      |
 | Apple              | MacBook Air (Late 2010)                              | Computer  | 2     | 2.0 |`1D6B:0002`| 2010    | 2020 |
-| Apple              | Pro Display XDR MWPE2LL/A (internal USB hub)         | Monitor   | 4     | 2.0 |`05AC:9139`| 2019    |      |
-| Apple              | Thunderbolt Display 27" (internal USB hub)           | Monitor   | 6     | 2.0 |           | 2011    | 2016 |
-| Apple              | USB Keyboard With Numeric Pad (internal USB hub)     | Keyboard  | 3     | 2.0 |           | 2011    |      |
-| Asus               | Z77 Sabertooth Motherboard (onboard USB hub)         | Mainboard | 6     | 2.0 |           | 2012    |      |
-| Asus               | Z87-PLUS Motherboard (onboard USB hub)               | Mainboard | 4     | 3.0 |           | 2013    | 2016 |
+| Apple              | Pro Display XDR MWPE2LL/A                            | Monitor   | 4     | 2.0 |`05AC:9139`| 2019    |      |
+| Apple              | Thunderbolt Display 27"                              | Monitor   | 6     | 2.0 |           | 2011    | 2016 |
+| Apple              | USB Keyboard With Numeric Pad                        | Keyboard  | 3     | 2.0 |           | 2011    |      |
+| Asus               | Z77 Sabertooth                                       | Mainboard | 6     | 2.0 |           | 2012    |      |
+| Asus               | Z87-PLUS                                             | Mainboard | 4     | 3.0 |           | 2013    | 2016 |
 | Aukey              | CB-C59                                               | Dock      | 4     | 3.0 |`2109:2813`| 2017    |      |
 | B+B SmartWorx      | UHR204                                               | Hub       | 4     | 2.0 |`0856:DB00`| 2013    |      |
 | B+B SmartWorx      | USH304                                               | Hub       | 4     | 3.0 |`04B4:6506`| 2017    | 2019 |
 | Basler             | 2000036234                                           | Hub       | 4     | 3.0 |`0451:8046`| 2016    |      |
 | Belkin             | F5U101                                               | Hub       | 4     | 2.0 |`0451:2046`| 2005    | 2010 |
 | Belkin             | F5U238UKCRL-MOB                                      | Hub       | 4     | 2.0 |`0409:0059`| 2004    | 2010 |
-| BenQ               | PD2700U 4K Monitor (works only in USB2 mode)         | Monitor   | 4     | 3.0 |`05E3:0610`| 2018    |      |
+| BenQ               | PD2700U (works only in USB2 mode)                 | Monitor   | 4     | 3.0 |`05E3:0610`| 2018    |      |
 | BenQ               | PD3220U                                              | Monitor   | 4     | 3.1 |`05E3:0610`| 2019    |      |
 | Bytecc             | BT-UH340 ([warning](https://tinyurl.com/BT-UH340-1)) | Hub       | 4     | 3.0 |`2109:8110`| 2010    |      |
 | Centech            | CT-USB4HUB ReTRY HUB ([note](https://github.com/mvp/uhubctl/issues/630)) | Hub       | 4     | 3.0 |`0424:2744`| 2017    |      |
-| Circuitco          | Beagleboard-xM (internal USB hub)                    | SBC       | 4     | 2.0 |`0424:9514`| 2010    |      |
-| Club3D             | CSV-3242HD Dual Display Docking Station              | Dock      | 4     | 3.0 |`2109:2811`| 2015    |      |
+| Circuitco          | Beagleboard-xM                                       | SBC       | 4     | 2.0 |`0424:9514`| 2010    |      |
+| Club3D             | CSV-3242HD Dual Display                              | Dock      | 4     | 3.0 |`2109:2811`| 2015    |      |
 | Coolgear           | USBG-12U2ML                                          | Hub       | 12    | 2.0 |`05E3:0607`| 2015    |      |
 | Cypress            | CY4608 HX2VL ([note](https://tinyurl.com/CY4608-1))  | Board     | 4     | 2.0 |`04B4:6570`| 2012    |      |
 | D-Link             | DUB-2332 rev A1                                      | Dock      | 3     | 3.0 |           | 2022    |      |
-| D-Link             | DUB-H4 rev D,E (black). Note: rev A,C,F not supported| Hub       | 4     | 2.0 |`05E3:0608`| 2012    |      |
+| D-Link             | DUB-H4 rev D,E (black). Note: rev A,C,F not supported | Hub       | 4     | 2.0 |`05E3:0608`| 2012    |      |
 | D-Link             | DUB-H7 rev A (silver)                                | Hub       | 7     | 2.0 |`2001:F103`| 2005    | 2010 |
 | D-Link             | DUB-H7 rev D,E (black). Rev B,C,F,G not supported    | Hub       | 7     | 2.0 |`05E3:0608`| 2012    |      |
 | Dell               | DA300 USB-C Mobile Adapter                           | Dock      | 2     | 3.0 |`2109:2820`| 2018    |      |
-| Dell               | P2416D 24" QHD Monitor ([note](https://git.io/JUAu8))| Monitor   | 4     | 2.0 |           | 2017    |      |
-| Dell               | S2719DGF 27" WQHD Gaming-Monitor                     | Monitor   | 5     | 3.0 |`0424:5734`| 2018    |      |
-| Dell               | UltraSharp 1704FPT 17" LCD Monitor                   | Monitor   | 4     | 2.0 |`0424:A700`| 2005    | 2015 |
-| Dell               | UltraSharp U2415 24" LCD Monitor                     | Monitor   | 5     | 3.0 |           | 2014    |      |
-| Dell               | UltraSharp U3419W 34" Curved Monitor                 | Monitor   | 6     | 3.0 |           | 2020    |      |
-| Dell               | Wyse 3040 ([-f required](https://tinyurl.com/wyse3k))| Computer  | 6     | 3.0 |           | 2017    |      |
+| Dell               | P2416D 24" QHD ([note](https://git.io/JUAu8))        | Monitor   | 4     | 2.0 |           | 2017    |      |
+| Dell               | S2719DGF 27"                                         | Monitor   | 5     | 3.0 |`0424:5734`| 2018    |      |
+| Dell               | UltraSharp 1704FPT 17"                               | Monitor   | 4     | 2.0 |`0424:A700`| 2005    | 2015 |
+| Dell               | UltraSharp U2415 24"                                 | Monitor   | 5     | 3.0 |           | 2014    |      |
+| Dell               | UltraSharp U3419W 34"                                | Monitor   | 6     | 3.0 |           | 2020    |      |
+| Dell               | Wyse 3040 ([-f required](https://tinyurl.com/wyse3k)) | Computer  | 6     | 3.0 |           | 2017    |      |
 | Delock             | 62537                                                | Hub       | 4     | 3.0 |           | 2017    | 2021 |
 | Delock             | 87445 ([note](https://git.io/Jsuz5))                 | Hub       | 4     | 2.0 |`05E3:0608`| 2009    | 2013 |
 | Elecom             | U2H-G4S                                              | Hub       | 4     | 2.0 |           | 2006    | 2011 |
-| Gigabyte           | G27Q monitor ([see](http://tinyurl.com/G27Q551))     | Monitor   | 4     | 3.0 |`2109:0817`| 2020    |      |
+| Gigabyte           | G27Q ([see](http://tinyurl.com/G27Q551))             | Monitor   | 4     | 3.0 |`2109:0817`| 2020    |      |
 | GlobalScale        | ESPRESSObin SBUD102 V5                               | SBC       | 1     | 3.0 |`1D6B:0003`| 2017    |      |
 | Hardkernel         | ODROID-C4 ([note](https://git.io/JG0mP))             | SBC       | 4     | 3.0 |           | 2020    |      |
 | Hawking Technology | UH214                                                | Hub       | 4     | 2.0 |           | 2003    | 2008 |
 | Hewlett Packard    | USB-C Dock G5 5TW10AA                                | Dock      | 5     | 3.0 |`03F0:076B`| 2019    |      |
 | Hewlett Packard    | P5Q58UT                                              | Dock      | 3     | 3.0 |           | 2019    |      |
-| IBM                | SK-8815 USB Keyboard                                 | Keyboard  | 3     | 1.1 |`04B3:301A`| 2004    |      |
+| IBM                | SK-8815                                              | Keyboard  | 3     | 1.1 |`04B3:301A`| 2004    |      |
 | Inateck            | HB2025A ([USB2 only](https://tinyurl.com/HB2025A-1)) | Hub       | 4     | 3.1 |`2109:2822`| 2021    |      |
 | IOI                | U3H415E1                                             | Hub       | 4     | 3.0 |           | 2012    |      |
 | j5create           | JUH377 ([note](https://tinyurl.com/JUH377))          | Hub       | 7     | 3.0 |           | 2016    |      |
@@ -76,11 +76,11 @@ This is list of known compatible USB hubs:
 | KUNBUS GmbH        | RevPi Connect (+) / S / SE                           | SBC       | 2     | 2.0 |`0424:9514`| 2018    |      |
 | KUNBUS GmbH        | RevPi Connect 4                                      | SBC       | 2     | 3.0 |           | 2022    |      |
 | KUNBUS GmbH        | RevPi Core 3 / S / SE                                | SBC       | 2     | 2.0 |`0424:9514`| 2017    |      |
-| LG Electronics     | 27MD5KL-B monitor                                    | Monitor   | 4     | 3.0 |`043E:9A60`| 2019    |      |
-| LG Electronics     | 27GL850-B monitor                                    | Monitor   | 4     | 3.0 |`0451:8142`| 2019    |      |
-| LG Electronics     | 27UK850-W monitor                                    | Monitor   | 2     | 3.0 |           | 2018    |      |
-| LG Electronics     | 27UN83A-W monitor                                    | Monitor   | 2     | 3.0 |`0451:8142`| 2020    |      |
-| LG Electronics     | 38WK95C-W monitor                                    | Monitor   | 4     | 3.0 |`0451:8142`| 2018    |      |
+| LG Electronics     | 27MD5KL-B                                            | Monitor   | 4     | 3.0 |`043E:9A60`| 2019    |      |
+| LG Electronics     | 27GL850-B                                            | Monitor   | 4     | 3.0 |`0451:8142`| 2019    |      |
+| LG Electronics     | 27UK850-W                                            | Monitor   | 2     | 3.0 |           | 2018    |      |
+| LG Electronics     | 27UN83A-W                                            | Monitor   | 2     | 3.0 |`0451:8142`| 2020    |      |
+| LG Electronics     | 38WK95C-W                                            | Monitor   | 4     | 3.0 |`0451:8142`| 2018    |      |
 | Lenovo             | ThinkPad Mini Dock Series 3 (433710U)                | Dock      | 6     | 2.0 |`17EF:100A`| 2016    |      |
 | Lenovo             | ThinkPad Ultra Docking Station (40A20090EU)          | Dock      | 6     | 2.0 |`17EF:100F`| 2015    |      |
 | Lenovo             | ThinkPad Ultra Docking Station (40AJ0135EU)          | Dock      | 7     | 3.1 |`17EF:3070`| 2018    |      |
@@ -88,8 +88,8 @@ This is list of known compatible USB hubs:
 | Lenovo             | ThinkPad X200 Ultrabase 42X4963                      | Dock      | 3     | 2.0 |`17EF:1005`| 2008    | 2011 |
 | Lenovo             | ThinkPad X6 Ultrabase 42W3107                        | Dock      | 4     | 2.0 |`17EF:1000`| 2006    | 2009 |
 | Lenovo             | ThinkPlus 4-in-1 USB-C hub 4X90W86497                | Dock      | 3     | 3.0 |           | 2021    |      |
-| Lenovo             | ThinkVision T24i-10 Monitor                          | Monitor   | 4     | 2.0 |`17EF:0610`| 2018    |      |
-| Lenovo             | USB-C to 4 Port USB-A Hub ([USB2 only](https://github.com/mvp/uhubctl/issues/625)) | Hub       | 4     | 2.0 |`17EF:103A`| 2020    |      |
+| Lenovo             | ThinkVision T24i-10                                  | Monitor   | 4     | 2.0 |`17EF:0610`| 2018    |      |
+| Lenovo             | USB-C to 4 Port USB-A Hub([USB2 only](https://github.com/mvp/uhubctl/issues/625)) | Hub       | 4     | 2.0 |`17EF:103A`| 2020    |      |
 | Lindy              | USB serial converter 4 port                          | Special   | 4     | 1.1 |`058F:9254`| 2008    |      |
 | Linksys            | USB2HUB4 ([note](https://git.io/JYiDZ))              | Hub       | 4     | 2.0 |           | 2004    | 2010 |
 | Maplin             | A08CQ ([red ports only](https://tinyurl.com/gh635))  | Hub       | 7     | 2.0 |`0409:0059`| 2008    | 2011 |
@@ -101,9 +101,9 @@ This is list of known compatible USB hubs:
 | Moxa               | Uport-407                                            | Hub       | 7     | 2.0 |`110A:0407`| 2009    |      |
 | NVidia             | Jetson Nano B01 ([details](https://git.io/JJaFR))    | SBC       | 4     | 3.0 |           | 2019    |      |
 | NVidia             | Jetson Orin Nano Devkit ([details](https://tinyurl.com/OrinNDK)) | SBC       | 4 | 3.0 |   | 2023    |      |
-| NVidia             | Jetson Xavier NX ([details](https://tinyurl.com/Xavier-NX))      | SBC       | 4 | 3.0 |   | 2020    |      |
+| NVidia             | Jetson Xavier NX ([details](https://tinyurl.com/Xavier-NX)) | SBC       | 4 | 3.0 |   | 2020    |      |
 | Phidgets           | HUB0003_0                                            | Hub       | 7     | 2.0 |`1A40:0201`| 2017    |      |
-| Philips            | 346B1C UltraWide 34" Curved Monitor                  | Monitor   | 4     | 3.0 |`05E3:0610`| 2019    |      |
+| Philips            | 346B1C                                               | Monitor   | 4     | 3.0 |`05E3:0610`| 2019    |      |
 | Plugable           | USB3-HUB7BC                                          | Hub       | 7     | 3.0 |`2109:0813`| 2015    |      |
 | Plugable           | USB3-HUB7C (only works for 2 charge ports)           | Hub       | 7     | 3.0 |`2109:0813`| 2015    |      |
 | Plugable           | USBC-HUB7BC (works for 6/7 ports, not the rightmost) | Hub       | 7     | 3.0 |`2109:0817`| 2021    |      |
@@ -132,7 +132,7 @@ This is list of known compatible USB hubs:
 | StarTech           | HB31C2A2CB ([note](https://github.com/mvp/uhubctl/issues/601)) | Hub       | 5 | 3.0 |`14B0:013D`| 2020    |      |
 | StarTech           | HB31C3A1CPD3 ([note](https://github.com/mvp/uhubctl/issues/656)) | Hub       | 5 | 3.1 |`14B0:013A`| 2019    |      |
 | Sunix              | SHB4200MA                                            | Hub       | 4     | 2.0 |`0409:0058`| 2006    | 2009 |
-| System Talks       | Sugoi USB2-HUB4X ([warning](https://github.com/mvp/uhubctl/issues/636))| Hub       |4|2.0| | 2007    |      |
+| System Talks       | Sugoi USB2-HUB4X ([warning](https://github.com/mvp/uhubctl/issues/636)) | Hub       |4|2.0| | 2007    |      |
 | Targus             | ACH155 (port 3 controls all ports)                   | Hub       | 4     | 3.0 |           | 2022    |      |
 | Targus             | PA095UZ                                              | Dock      | 2     | 2.0 |           | 2004    |      |
 | Targus             | PAUH212/PAUH212U                                     | Hub       | 7     | 2.0 |           | 2004    | 2009 |
